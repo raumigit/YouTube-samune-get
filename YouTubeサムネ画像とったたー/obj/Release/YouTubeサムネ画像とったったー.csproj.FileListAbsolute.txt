@@ -1,0 +1,15 @@
+C:\Users\mahhi\Desktop\programing\C#\YouTubeサムネ画像とったたー\YouTubeサムネ画像とったたー\bin\Release\YouTubeサムネ画像とったたー.exe.config
+C:\Users\mahhi\Desktop\programing\C#\YouTubeサムネ画像とったたー\YouTubeサムネ画像とったたー\bin\Release\YouTubeサムネ画像とったたー.exe.manifest
+C:\Users\mahhi\Desktop\programing\C#\YouTubeサムネ画像とったたー\YouTubeサムネ画像とったたー\bin\Release\YouTubeサムネ画像とったたー.application
+C:\Users\mahhi\Desktop\programing\C#\YouTubeサムネ画像とったたー\YouTubeサムネ画像とったたー\bin\Release\YouTubeサムネ画像とったたー.exe
+C:\Users\mahhi\Desktop\programing\C#\YouTubeサムネ画像とったたー\YouTubeサムネ画像とったたー\bin\Release\YouTubeサムネ画像とったたー.pdb
+C:\Users\mahhi\Desktop\programing\C#\YouTubeサムネ画像とったたー\YouTubeサムネ画像とったたー\obj\Release\YouTubeサムネ画像とったたー.Form1.resources
+C:\Users\mahhi\Desktop\programing\C#\YouTubeサムネ画像とったたー\YouTubeサムネ画像とったたー\obj\Release\YouTubeサムネ画像とったたー.Properties.Resources.resources
+C:\Users\mahhi\Desktop\programing\C#\YouTubeサムネ画像とったたー\YouTubeサムネ画像とったたー\obj\Release\YouTubeサムネ画像とったったー.csproj.GenerateResource.cache
+C:\Users\mahhi\Desktop\programing\C#\YouTubeサムネ画像とったたー\YouTubeサムネ画像とったたー\obj\Release\YouTubeサムネ画像とったったー.csproj.CoreCompileInputs.cache
+C:\Users\mahhi\Desktop\programing\C#\YouTubeサムネ画像とったたー\YouTubeサムネ画像とったたー\obj\Release\YouTubeサムネ画像とったたー.TrustInfo.xml
+C:\Users\mahhi\Desktop\programing\C#\YouTubeサムネ画像とったたー\YouTubeサムネ画像とったたー\obj\Release\YouTubeサムネ画像とったたー.exe.manifest
+C:\Users\mahhi\Desktop\programing\C#\YouTubeサムネ画像とったたー\YouTubeサムネ画像とったたー\obj\Release\YouTubeサムネ画像とったたー.application
+C:\Users\mahhi\Desktop\programing\C#\YouTubeサムネ画像とったたー\YouTubeサムネ画像とったたー\obj\Release\YouTubeサムネ画像とったたー.exe
+C:\Users\mahhi\Desktop\programing\C#\YouTubeサムネ画像とったたー\YouTubeサムネ画像とったたー\obj\Release\YouTubeサムネ画像とったたー.pdb
+C:\Users\mahhi\Desktop\programing\C#\YouTubeサムネ画像とったたー\YouTubeサムネ画像とったたー\obj\Release\YouTubeサムネ画像とったったー.csprojAssemblyReference.cache
