@@ -59,11 +59,11 @@ namespace YouTubeサムネ画像とったたー
             "https://img.youtube.com/vi/@/1.jpg","https://img.youtube.com/vi/@/2.jpg","https://img.youtube.com/vi/@/3.jpg" };
 
 
-            progressBar1.Value = 2;//2%
+            
 
             //抽出
             Task.Delay(9200);
-            progressBar1.Value = 20;//20%
+            
 
             //test https://youtu.be/uBn1frMI_6Q
 
@@ -96,14 +96,14 @@ namespace YouTubeサムネ画像とったたー
                 loglist.TopIndex = loglist.Items.Add (convurl);
             
             
-                progressBar1.Value = 64;
+                
 
-                if (radioButton1.Checked == true)//サイズ判定
+                if (radioButtonMaxresdefault.Checked == true)//サイズ判定
                 {
                     //convimage https://img.youtube.com/vi/uBn1frMI_6Q/maxresdefault.jpg
                     imgURL = maxresdefault.Replace("@",convurl);
                 }
-                else if (radioButton2.Checked==true)
+                else if (radioButtonSdddefault.Checked==true)
                 {
                     imgURL = sddfault.Replace("@", convurl);
                 }
@@ -111,37 +111,37 @@ namespace YouTubeサムネ画像とったたー
 
                 if (checkBoxテキスト.Checked == true)
                 {
-                    if (radioButton1.Checked == true)
+                    if (radioButtonMaxresdefault.Checked == true)
                     {
                         File.AppendAllText(@"URL.txt", imgURL+"\n");
                     }
-                    else if (radioButton2.Checked == true)
+                    else if (radioButtonSdddefault.Checked == true)
                     {
                         File.AppendAllText(@"URL.txt", imgURL+"\n");
                     }
                 }
 
-                progressBar1.Value = 80;
+                
 
                 if (checkBoxクリップボード.Checked==true)
                 {
-                    if (radioButton1.Checked==true)
+                    if (radioButtonMaxresdefault.Checked==true)
                     {
                         Clipboard.SetData(DataFormats.Text, imgURL);
                     }
-                    else if(radioButton2.Checked==true)
+                    else if(radioButtonSdddefault.Checked==true)
                     {
                         Clipboard.SetData(DataFormats.Text, imgURL);
                     }
                 }
 
-                if (checkBoxAll.Checked==true)
+                if (checkBoxAll.Checked == true) { 
                     if (Directory.Exists(@"全サムネイル") !=true)
                     {
                         Directory.CreateDirectory("全サムネイル");
                     }
                    
-                {
+                
                     for (int i = 0; i < arraysamune.Length; i++)
                     {
                         arraysamune[i] = arraysamune[i].Replace("@", convurl);
@@ -151,8 +151,11 @@ namespace YouTubeサムネ画像とったたー
                     }
                     File.AppendAllText(@"全サムネイル/URL.txt", "_____________________________________________________\n");
                 }
-                progressBar1.Value = 100;
+                
                 end = true;
+
+
+
             }
             catch (Exception)
             {
@@ -166,6 +169,30 @@ namespace YouTubeサムネ画像とったたー
             textBox_input.SelectAll();
         }
 
-        
+        private void SelectedYTcode(object sender, EventArgs e)
+        {
+            //Clipboard.SetData();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                String discrimination;
+                discrimination = loglist.SelectedItem.ToString();
+
+                if (discrimination.IndexOfAny(new Char[]{ '>',':','.'}) ==-1)
+                {
+                    Clipboard.SetDataObject(loglist.SelectedItem);
+                }
+                
+            }
+            catch (Exception)
+            {
+
+                loglist.Items.Add("ERROR:選択したリストはNULLです");
+            }
+            
+        }
     }
 }
