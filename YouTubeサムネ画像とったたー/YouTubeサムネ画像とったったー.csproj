@@ -97,6 +97,7 @@
     <Compile Include="UserControl-Groupbox.Designer.cs">
       <DependentUpon>UserControl-Groupbox.cs</DependentUpon>
     </Compile>
+    <Compile Include="yt-dlp_connect.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
